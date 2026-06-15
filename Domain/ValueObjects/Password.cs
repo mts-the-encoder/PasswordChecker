@@ -2,5 +2,5 @@
 
 public class Password
 {
-	public String Value { get; set; }
+	public string Value { get; set; }
 }
