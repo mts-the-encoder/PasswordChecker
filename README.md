@@ -81,13 +81,13 @@ Por padrão a aplicação irá ligar nas portas configuradas em `Api/Properties/
 Exemplo usando `curl` (PowerShell):
 
 ```powershell
-curl -Method POST -Uri http://localhost:5000/api/password/validate -Body (@{password='AbTp9!fok'} | ConvertTo-Json) -ContentType 'application/json'
+curl -Method POST -Uri http://localhost:5140/api/password/validate -Body (@{password='AbTp9!fok'} | ConvertTo-Json) -ContentType 'application/json'
 ```
 
 Ou usando HTTPie (se instalado):
 
 ```powershell
-http POST http://localhost:5000/api/password/validate password=AbTp9!fok
+http POST http://localhost:5140/api/password/validate password=AbTp9!fok
 ```
 
 ## Testes
